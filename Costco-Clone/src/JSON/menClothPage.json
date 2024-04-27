@@ -1,0 +1,142 @@
+[
+    {
+        "id": 1,
+        "image": "src/assets/MultiProductPages/mensClothingPage/imageService.jpeg",
+        "Price": "21.99",
+        "title": "Hurley Men’s Hybrid Short",
+        "Description": "Features:\nRegular Fit\n4-Way Stretch Fabric"
+    },
+    {
+        "id": 2,
+        "image": "src/assets/MultiProductPages/mensClothingPage/imageService (1).jpeg",
+        "Price": "29.99",
+        "title": "Adidas Men's Performance Polo",
+        "Description": "Features:\nMoisture-Wicking\nBreathable Fabric"
+    },
+    {
+        "id": 3,
+        "image": "src/assets/MultiProductPages/mensClothingPage/imageService (2).jpeg",
+        "Price": "39.95",
+        "title": "Levi's Men's 505 Regular Fit Jeans",
+        "Description": "Features:\nClassic Straight Leg\nMid Rise"
+    },
+    {
+        "id": 4,
+        "image": "src/assets/MultiProductPages/mensClothingPage/imageService (3).jpeg",
+        "Price": "24.99",
+        "title": "Puma Men's T-Shirt",
+        "Description": "Features:\nCrew Neck\nGraphic Print"
+    },
+    {
+        "id": 5,
+        "image": "src/assets/MultiProductPages/mensClothingPage/imageService (4).jpeg",
+        "Price": "49.99",
+        "title": "Tommy Hilfiger Men's Dress Shirt",
+        "Description": "Features:\nButton-Down Collar\nClassic Fit"
+    },
+    {
+        "id": 6,
+        "image": "src/assets/MultiProductPages/mensClothingPage/imageService (5).jpeg",
+        "Price": "34.99",
+        "title": "Nike Men's Training Shorts",
+        "Description": "Features:\nDri-FIT Technology\nElastic Waistband"
+    },
+    {
+        "id": 7,
+        "image": "src/assets/MultiProductPages/mensClothingPage/imageService (6).jpeg",
+        "Price": "54.95",
+        "title": "Dockers Men's Classic Khaki Pants",
+        "Description": "Features:\nWrinkle-Free\nStraight Fit"
+    },
+    {
+        "id": 8,
+        "image": "src/assets/MultiProductPages/mensClothingPage/imageService (7).jpeg",
+        "Price": "19.99",
+        "title": "Champion Men's Athletic Socks",
+        "Description": "Features:\nCushioned Footbed\nArch Support"
+    },
+    {
+        "id": 9,
+        "image": "src/assets/MultiProductPages/mensClothingPage/imageService (8).jpeg",
+        "Price": "69.99",
+        "title": "Calvin Klein Men's Slim-Fit Suit",
+        "Description": "Features:\nSingle-Breasted Jacket\nFlat-Front Pants"
+    },
+    {
+        "id": 10,
+        "image": "src/assets/MultiProductPages/mensClothingPage/imageService (9).jpeg",
+        "Price": "14.95",
+        "title": "Hanes Men's 6-Pack Undershirts",
+        "Description": "Features:\nTagless Design\nSoft Cotton Fabric"
+    },
+    {
+        "id": 11,
+        "image": "src/assets/MultiProductPages/mensClothingPage/imageService (10).jpeg",
+        "Price": "79.99",
+        "title": "Ralph Lauren Men's V-Neck Sweater",
+        "Description": "Features:\nRibbed Trim\nEmbroidered Logo"
+    },
+    {
+        "id": 12,
+        "image": "src/assets/MultiProductPages/mensClothingPage/imageService (11).jpeg",
+        "Price": "44.99",
+        "title": "Under Armour Men's Athletic Shorts",
+        "Description": "Features:\nMesh Panels\nQuick-Drying Fabric"
+    },
+    {
+        "id": 13,
+        "image": "src/assets/MultiProductPages/mensClothingPage/imageService (12).jpeg",
+        "Price": "59.95",
+        "title": "Carhartt Men's Work Jacket",
+        "Description": "Features:\nDurable Canvas Material\nQuilted Lining"
+    },
+    {
+        "id": 14,
+        "image": "src/assets/MultiProductPages/mensClothingPage/imageService (13).jpeg",
+        "Price": "29.99",
+        "title": "Columbia Men's PFG Shirt",
+        "Description": "Features:\nOmni-Shade UPF 50\nQuick-Drying Fabric"
+    },
+    {
+        "id": 15,
+        "image": "src/assets/MultiProductPages/mensClothingPage/imageService (14).jpeg",
+        "Price": "39.99",
+        "title": "Van Heusen Men's Dress Pants",
+        "Description": "Features:\nClassic Fit\nWrinkle-Resistant"
+    },
+    {
+        "id": 16,
+        "image": "src/assets/MultiProductPages/mensClothingPage/imageService (15).jpeg",
+        "Price": "24.95",
+        "title": "Fruit of the Loom Men's Hoodie",
+        "Description": "Features:\nKangaroo Pocket\nRibbed Cuffs and Hem"
+    },
+    {
+        "id": 17,
+        "image": "src/assets/MultiProductPages/mensClothingPage/imageService (16).jpeg",
+        "Price": "49.99",
+        "title": "IZOD Men's Golf Polo",
+        "Description": "Features:\nSun Control UPF 15\nMoisture-Wicking Fabric"
+    },
+    {
+        "id": 18,
+        "image": "src/assets/MultiProductPages/mensClothingPage/imageService (17).jpeg",
+        "Price": "34.99",
+        "title": "Amazon Essentials Men's Chino Shorts",
+        "Description": "Features:\nFlat-Front\nClassic Fit"
+    },
+    {
+        "id": 19,
+        "image": "src/assets/MultiProductPages/mensClothingPage/imageService (18).jpeg",
+        "Price": "59.99",
+        "title": "Perry Ellis Men's Slim-Fit Dress Shirt",
+        "Description": "Features:\nSpread Collar\nFrench Cuffs"
+    },
+    {
+        "id": 20,
+        "image": "src/assets/MultiProductPages/mensClothingPage/imageService (19).jpeg",
+        "Price": "19.99",
+        "title": "Wrangler Men's Cargo Shorts",
+        "Description": "Features:\nMultiple Pockets\nLoose Fit"
+    }
+]
