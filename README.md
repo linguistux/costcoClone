@@ -54,7 +54,7 @@ Below are the images of various pages:
    ![Profile Page](https://github.com/KaranChauhanji/Costco-Clone/blob/main/src/assets/multiproduct.png)
 
 5. Single-Product Page 🛍️
-   ![Profile Page](link_to_profilepage_image)
+   ![Profile Page](https://github.com/KaranChauhanji/Costco-Clone/blob/main/src/assets/singleproduct.png)
 
 6. Cart Page 🛒
    ![Cart Page](link_to_cartpage_image)
