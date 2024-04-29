@@ -48,7 +48,7 @@ Below are the images of various pages:
    ![Login Page](https://github.com/KaranChauhanji/Costco-Clone/blob/main/src/assets/Login.png)
 
 3. Signup Page 📝
-   ![Signup Page](link_to_signuppage_image)
+   ![Signup Page](https://github.com/KaranChauhanji/Costco-Clone/blob/main/src/assets/Signup.png)
 
 4. Multi-Product Page 🛍️
    ![Profile Page](link_to_profilepage_image)
