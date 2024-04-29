@@ -7,6 +7,7 @@ import {
   Input,
   SimpleGrid,
   Text,
+  useToast,
 } from "@chakra-ui/react";
 import { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
@@ -14,33 +15,34 @@ import { Link, Navigate } from "react-router-dom";
 import { Authentication } from "../Redux/actionItems";
 
 const LoginPage = () => {
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+  const state = useSelector((state) => state.authentication);
+  const dispatch = useDispatch();
+  const toast = useToast();
 
-  const [email,setEmail] = useState('')
-  const [password,setPassword] = useState('')
-  const state = useSelector(state=>state.authentication)
-const dispatch = useDispatch()
+  const handleLogin = () => {
+    let token = JSON.parse(localStorage.getItem("credentials")) || {};
 
-  const handleLogin = ()=>{
-
-    let token = JSON.parse(localStorage.getItem('credentials')) || {}
-
-    if(token.email === email && token.password === password){
-  
-      dispatch({type: Authentication})
-      
+    if (token.email === email && token.password === password) {
+      dispatch({ type: Authentication });
+    } else {
+      let cartObj = {
+        title: "Failed",
+        description: `Wrong Credentials`,
+        status: "error",
+        duration: 9000,
+        isClosable: true,
+      };
+      toast(cartObj);
     }
-    else{
-      alert("Wrong Credentials")
-    }
 
-    console.log("token: ",token)
+    console.log("token: ", token);
+  };
+
+  if (state.isAuth) {
+    return <Navigate to={"/"} />;
   }
-  
-
-  if(state.isAuth){
-    return <Navigate to={'/'}/>
-  }
-
 
   return (
     <Box>
@@ -69,13 +71,13 @@ const dispatch = useDispatch()
                 placeholder="Email Address"
                 border={"1px solid"}
                 mb={3}
-                onChange={(e)=>setEmail(e.target.value)}
+                onChange={(e) => setEmail(e.target.value)}
               />
               <Input
                 type="password"
                 placeholder="Password"
                 border={"1px solid"}
-                onChange={(e)=>setPassword  (e.target.value)}
+                onChange={(e) => setPassword(e.target.value)}
               />
               <Text
                 color={"rgb(0,96,169)"}

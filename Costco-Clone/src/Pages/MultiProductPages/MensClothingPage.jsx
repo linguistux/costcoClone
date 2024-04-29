@@ -33,12 +33,12 @@ const MensClothingPage = () => {
     }
   };
 
-  useEffect(()=>{
+  useEffect(() => {
     window.scroll({
-      top:0,
-      behavior:'instant'
-    })
-  },[])
+      top: 0,
+      behavior: "instant",
+    });
+  }, []);
 
   return (
     <Box>

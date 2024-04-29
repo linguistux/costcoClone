@@ -1,142 +1,142 @@
 [
-    {
+  {
     "id": 1,
     "image": "src/assets/MultiProductPages/beautyPage/imageService.jpeg",
     "Price": "21.99",
     "title": "La Mer Creme De La Mer Moisturizing Cream, 3.4 oz",
     "Description": "Features: While Supplies Last\n(1) 3.4 oz Cream\nSoothes and Moisturizes\nReduces Appearance of Fine Lines and Wrinkles\nFor All Skin Types"
-    },
-    {
+  },
+  {
     "id": 2,
     "image": "src/assets/MultiProductPages/beautyPage/imageService (1).jpeg",
     "Price": "14.99",
     "title": "Neutrogena Hydro Boost Hyaluronic Acid Hydrating Water Gel, 1.7 oz",
     "Description": "1.7 oz\nHyaluronic Acid\nOil-free\nNon-comedogenic"
-    },
-    {
+  },
+  {
     "id": 3,
     "image": "src/assets/MultiProductPages/beautyPage/imageService (2).jpeg",
     "Price": "9.99",
     "title": "Cetaphil Daily Facial Cleanser, 16 oz",
     "Description": "16 oz\nNon-irritating\nNon-comedogenic\nFor Normal to Oily Skin"
-    },
-    {
+  },
+  {
     "id": 4,
     "image": "src/assets/MultiProductPages/beautyPage/imageService (3).jpeg",
     "Price": "29.99",
     "title": "Olay Regenerist Micro-Sculpting Cream, 1.7 oz",
     "Description": "1.7 oz\nHydrates\nPlumps Surface Cells\nReduces Look of Wrinkles"
-    },
-    {
+  },
+  {
     "id": 5,
     "image": "src/assets/MultiProductPages/beautyPage/imageService (4).jpeg",
     "Price": "19.99",
     "title": "Mario Badescu Facial Spray with Aloe, Herbs, and Rosewater, 8 oz",
     "Description": "8 oz\nRevitalizes\nHydrates\nRefreshes"
-    },
-    {
+  },
+  {
     "id": 6,
     "image": "src/assets/MultiProductPages/beautyPage/imageService (5).jpeg",
     "Price": "39.99",
     "title": "Estee Lauder Advanced Night Repair Synchronized Recovery Complex II, 1.7 oz",
     "Description": "1.7 oz\nSynchronizes\nHydrates\nRepairs"
-    },
-    {
+  },
+  {
     "id": 7,
     "image": "src/assets/MultiProductPages/beautyPage/imageService (6).jpeg",
     "Price": "24.99",
     "title": "CeraVe Hydrating Facial Cleanser, 16 oz",
     "Description": "16 oz\nNon-foaming\nHydrates\nFor Normal to Dry Skin"
-    },
-    {
+  },
+  {
     "id": 8,
     "image": "src/assets/MultiProductPages/beautyPage/imageService (7).jpeg",
     "Price": "16.99",
     "title": "The Ordinary Niacinamide 10% + Zinc 1%, 1 oz",
     "Description": "1 oz\nNiacinamide\nZinc\nReduces Blemishes"
-    },
-    {
+  },
+  {
     "id": 9,
     "image": "src/assets/MultiProductPages/beautyPage/imageService (8).jpeg",
     "Price": "34.99",
     "title": "Clinique Dramatically Different Moisturizing Lotion+, 4.2 oz",
     "Description": "4.2 oz\nMoisturizes\nStrengthens Skin's Barrier\nAllergy Tested"
-    },
-    {
+  },
+  {
     "id": 10,
     "image": "src/assets/MultiProductPages/beautyPage/imageService (9).jpeg",
     "Price": "12.99",
     "title": "Thayers Alcohol-Free Rose Petal Witch Hazel Facial Toner, 12 oz",
     "Description": "12 oz\nAlcohol-Free\nRose Petal\nSoothes Irritation"
-    },
-    {
+  },
+  {
     "id": 11,
     "image": "src/assets/MultiProductPages/beautyPage/imageService (10).jpeg",
     "Price": "7.99",
     "title": "Cetaphil Gentle Skin Cleanser, 20 oz",
     "Description": "20 oz\nGentle Cleanser\nFor All Skin Types\nFragrance-Free"
-    },
-    {
+  },
+  {
     "id": 12,
     "image": "src/assets/MultiProductPages/beautyPage/imageService (11).jpeg",
     "Price": "49.99",
     "title": "SK-II Facial Treatment Essence, 2.5 oz",
     "Description": "2.5 oz\nPitera\nBrightens\nEvens Texture"
-    },
-    {
+  },
+  {
     "id": 13,
     "image": "src/assets/MultiProductPages/beautyPage/imageService (12).jpeg",
     "Price": "10.99",
     "title": "CeraVe Moisturizing Cream, 19 oz",
     "Description": "19 oz\nMoisturizes\nRestores Protective Barrier\nNon-comedogenic"
-    },
-    {
+  },
+  {
     "id": 14,
     "image": "src/assets/MultiProductPages/beautyPage/imageService (13).jpeg",
     "Price": "27.99",
     "title": "Peter Thomas Roth Water Drench Hyaluronic Cloud Cream Hydrating Moisturizer, 1.7 oz",
     "Description": "1.7 oz\nHyaluronic Acid\nGlycerin\nLocks in Moisture"
-    },
-    {
+  },
+  {
     "id": 15,
     "image": "src/assets/MultiProductPages/beautyPage/imageService (14).jpeg",
     "Price": "8.99",
     "title": "Neutrogena Makeup Remover Cleansing Towelettes, 114 ct",
     "Description": "114 ct\nGentle\nRemoves Makeup\nPre-moistened"
-    },
-    {
+  },
+  {
     "id": 16,
     "image": "src/assets/MultiProductPages/beautyPage/imageService (15).jpeg",
     "Price": "19.99",
     "title": "Cetaphil Moisturizing Cream, 20 oz",
     "Description": "20 oz\nHydrates\nRestores Barrier Function\nFor Dry, Sensitive Skin"
-    },
-    {
+  },
+  {
     "id": 17,
     "image": "src/assets/MultiProductPages/beautyPage/imageService (16).jpeg",
     "Price": "59.99",
     "title": "Sunday Riley Good Genes All-In-One Lactic Acid Treatment, 1 oz",
     "Description": "1 oz\nLactic Acid\nBrightens\nExfoliates"
-    },
-    {
+  },
+  {
     "id": 18,
     "image": "src/assets/MultiProductPages/beautyPage/imageService (17).jpeg",
     "Price": "6.99",
     "title": "Aquaphor Healing Ointment, 14 oz",
     "Description": "14 oz\nHeals\nProtects\nFor Dry, Cracked Skin"
-    },
-    {
+  },
+  {
     "id": 19,
     "image": "src/assets/MultiProductPages/beautyPage/imageService (18).jpeg",
     "Price": "32.99",
     "title": "Tatcha The Water Cream, 1.7 oz",
     "Description": "1.7 oz\nJapanese Wild Rose\nJapanese Leopard Lily\nOil-free"
-    },
-    {
+  },
+  {
     "id": 20,
     "image": "src/assets/MultiProductPages/beautyPage/imageService (19).jpeg",
     "Price": "17.99",
     "title": "Garnier SkinActive Micellar Cleansing Water, 27.1 oz",
     "Description": "27.1 oz\nMicellar Technology\nNo Rinse\nNo Harsh Rubbing"
-    }
-    ]
+  }
+]

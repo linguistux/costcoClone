@@ -49,8 +49,6 @@ export default function SimpleSlider() {
         },
       },
     ],
-
-
   };
 
   let arr = [

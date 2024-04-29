@@ -148,10 +148,9 @@ function MultipleItems() {
 
   return (
     <Box p={["7", "7", "10", "20"]} pt={[5, 5, 5, 5]} pb={[10, 10, 10, 10]}>
-    <Text fontWeight={400} fontSize={"30px"} mb={3} textAlign={"center"}>
+      <Text fontWeight={400} fontSize={"30px"} mb={3} textAlign={"center"}>
         Selected For You
       </Text>
-  
 
       <Slider {...settings}>
         {arr.map((elem, i) => (

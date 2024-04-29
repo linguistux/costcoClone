@@ -1,19 +1,19 @@
 import { Authentication, logout } from "../actionItems";
 
-let isUser = JSON.parse(localStorage.getItem('credentials'));
+let isUser = JSON.parse(localStorage.getItem("credentials"));
 
-
-let isLoginPresent = isUser ?true:false
+let isLoginPresent = isUser ? true : false;
 
 const initialState = {
-  isAuth:isLoginPresent,
+  isAuth: isLoginPresent,
 };
 
 export const privateRouteReducer = (state = initialState, { type }) => {
   switch (type) {
     case Authentication:
       return { isAuth: true };
-      case logout : return state
+    case logout:
+      return state;
     default:
       return state;
   }

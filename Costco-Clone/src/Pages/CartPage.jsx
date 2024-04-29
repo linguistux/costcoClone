@@ -6,6 +6,7 @@ import {
   Heading,
   SimpleGrid,
   Text,
+  useToast,
 } from "@chakra-ui/react";
 import Header from "../Components/Header";
 import { Link } from "react-router-dom";
@@ -15,25 +16,41 @@ import { useState } from "react";
 const CartPage = () => {
   let arr = JSON.parse(localStorage.getItem("cart"));
   const [rerender, setRerender] = useState(false);
-  
+  const toast = useToast();
+
   const calculateTotal = () => {
     if (!arr || arr.length === 0) return 0;
-    return arr.reduce((total, item) => Number(total) + Number(item.Price), 0);
+    return arr
+      .reduce((total, item) => Number(total) + Number(item.Price), 0)
+      .toFixed(2);
   };
 
-  
-  
-    let handleCheckout = () => {
-      localStorage.removeItem("cart")
-      setRerender(!rerender);
-  }
-  
-  
-  let handleRemove =(id)=>{
+  let handleCheckout = () => {
+    localStorage.removeItem("cart");
+    setRerender(!rerender);
+    let cartObj = {
+      title: "Checkout Completed Successfully",
+      description: `Cart is Empty Now!`,
+      status: "success",
+      duration: 9000,
+      isClosable: true,
+    };
+    toast(cartObj);
+  };
+
+  let handleRemove = (id) => {
     const updatedCart = arr.filter((item) => item.id !== id);
-    localStorage.setItem('cart',JSON.stringify(updatedCart))
-    setRerender(!rerender); // Update state to force rerender
-  }
+    localStorage.setItem("cart", JSON.stringify(updatedCart));
+    setRerender(!rerender);
+    let cartObj = {
+      title: "Item Removed From Cart",
+      description: `Successful`,
+      status: "error",
+      duration: 9000,
+      isClosable: true,
+    };
+    toast(cartObj);
+  };
 
   return (
     <Box>
@@ -55,8 +72,23 @@ const CartPage = () => {
               arr.map((elem) => (
                 <Box key={elem.id} p={5}>
                   <Divider mb={10} bg={"grey"} h={0.8} />
-                  <Flex justifyContent={"space-between"}>
-                    <Flex justifyContent={"space-between"}>
+                  <SimpleGrid
+                    gridTemplateColumns={[
+                      "repeat(1,1fr)",
+                      "repeat(1,1fr)",
+                      "repeat(1,1fr)",
+                      "repeat(2,1fr)",
+                    ]}
+                    gap={5}
+                  >
+                    <SimpleGrid
+                      gridTemplateColumns={[
+                        "repeat(1,1fr)",
+                        "repeat(1,1fr)",
+                        "repeat(2,1fr)",
+                        "repeat(2,1fr)",
+                      ]}
+                    >
                       <Box w={40}>
                         <img src={elem.image} alt="" />
                       </Box>
@@ -74,15 +106,15 @@ const CartPage = () => {
                           color={"blue"}
                           _hover={{ textDecoration: "underline" }}
                           fontWeight={400}
-                          cursor={"pointer"} 
-                          onClick={()=>handleRemove(elem.id)}
+                          cursor={"pointer"}
+                          onClick={() => handleRemove(elem.id)}
                         >
                           Remove
                         </Text>
                       </Box>
-                    </Flex>
+                    </SimpleGrid>
                     <Flex>
-                      <SimpleGrid gap={2}>
+                      <SimpleGrid gap={2} m={"auto"}>
                         <Box p={2} border={"1px solid rgba(0,0,0,0.2)"}>
                           <Text mb={2} fontWeight={600}>
                             Standard : Shipping & Handling Included
@@ -117,19 +149,20 @@ const CartPage = () => {
                         </Text>
                       </SimpleGrid>
                     </Flex>
-                  </Flex>
+                  </SimpleGrid>
                 </Box>
               ))
             ) : (
               <Box mt={5}>
                 <Divider mb={10} bg={"grey"} h={0.8} />
 
-                <Text fontSize={'18px'} fontWeight={400} mb={3}>
+                <Text fontSize={"18px"} fontWeight={400} mb={3}>
                   Your shopping cart is empty. Please add at least one item to
                   your cart before checking out.
                 </Text>
                 <Link to={"/"}>
-                  <Button mb={4}
+                  <Button
+                    mb={4}
                     _hover={{ color: "white" }}
                     bg={"#296293"}
                     color={"white"}

@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect } from "react";
 
 export const useFetch = (url) => {
   const [data, setData] = useState(null);
@@ -11,7 +11,7 @@ export const useFetch = (url) => {
       try {
         const response = await fetch(url);
         if (!response.ok) {
-          throw new Error('Failed to fetch data');
+          throw new Error("Failed to fetch data");
         }
         const fetchedData = await response.json();
         setData(fetchedData);
@@ -24,7 +24,6 @@ export const useFetch = (url) => {
 
     fetchData();
   }, [url]);
-
 
   return { data, isLoading, error };
 };

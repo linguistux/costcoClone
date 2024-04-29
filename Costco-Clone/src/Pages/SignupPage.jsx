@@ -7,29 +7,32 @@ import {
   Input,
   SimpleGrid,
   Text,
+  useToast,
 } from "@chakra-ui/react";
 import { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { Link, useNavigate } from "react-router-dom";
 import { Email, Password } from "../Redux/actionItems";
 
-
 const SignupPage = () => {
-
-
-  const state = useSelector(state=>state.auth)
-  const dispatch= useDispatch()
+  const state = useSelector((state) => state.auth);
+  const dispatch = useDispatch();
 
   const [confirmPassword, setConfirmPassword] = useState("");
   const navigate = useNavigate();
+  const toast = useToast();
 
   const handleSignup = () => {
     if (confirmPassword !== state.password) {
-      alert("wrong Password");
+      let cartObj = {
+        title: "Failed",
+        description: `Wrong Password`,
+        status: "error",
+        duration: 9000,
+        isClosable: true,
+      };
+      toast(cartObj);
     } else {
-      // let obj = {
-      //   data: state,
-      // };
       localStorage.setItem("credentials", JSON.stringify(state));
       navigate("/login");
     }
@@ -45,8 +48,12 @@ const SignupPage = () => {
         </Box>
       </Flex>
 
-      <SimpleGrid justifyContent={"center"} alignItems={"center"} w={['90%','70%','50%','30%']}
-       m={"auto"}>
+      <SimpleGrid
+        justifyContent={"center"}
+        alignItems={"center"}
+        w={["90%", "70%", "50%", "30%"]}
+        m={"auto"}
+      >
         <SimpleGrid>
           <Text fontSize={"36px"} mt={5} mb={5}>
             Create Account

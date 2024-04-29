@@ -77,10 +77,7 @@ const Footer = () => {
               mt={2}
             >
               <Box cursor={"pointer"} w={8}>
-                <Link
-                  to={"https://www.facebook.com/Costco/"}
-                  target="_blank"
-                >
+                <Link to={"https://www.facebook.com/Costco/"} target="_blank">
                   <img
                     src="https://www.costco.com/wcsstore/RWDStaticAssets/fonts/fallback-icons/icons/social-facebook.svg"
                     alt=""
@@ -122,7 +119,10 @@ const Footer = () => {
                 }
                 target="_blank"
               >
-                <img src="https://mobilecontent.costco.com/live/resource/img/static-folder-app-icon/app-icon.png" alt="" />
+                <img
+                  src="https://mobilecontent.costco.com/live/resource/img/static-folder-app-icon/app-icon.png"
+                  alt=""
+                />
               </Link>
             </Box>
           </Box>
@@ -582,7 +582,10 @@ const Footer = () => {
               }
               target="_blank"
             >
-              <img src="https://www.costco.com/wcsstore/RWDStaticAssets/fonts/fallback-icons/icons/social-instagram.svg" alt="" />
+              <img
+                src="https://www.costco.com/wcsstore/RWDStaticAssets/fonts/fallback-icons/icons/social-instagram.svg"
+                alt=""
+              />
             </Link>
           </Box>
         </SimpleGrid>

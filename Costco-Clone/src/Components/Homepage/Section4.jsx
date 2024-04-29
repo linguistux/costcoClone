@@ -35,35 +35,14 @@ const Section4 = () => {
           cursor={"pointer"}
           justifyContent={"space-around"}
         >
-          <Link to={'/patio-covers'}>
-          <Box mb={[0, 0, 0, 3]}>
-            <img
-              src="src\assets\HomeIMG\Section4\outdoor-structures.jpg"
-              alt=""
+          <Link to={"/patio-covers"}>
+            <Box mb={[0, 0, 0, 3]}>
+              <img
+                src="src\assets\HomeIMG\Section4\outdoor-structures.jpg"
+                alt=""
               />
-          </Box>
-          <Text>Patio Covers & Shade Structures</Text>
-              </Link>
-        </Flex>
-
-        <Flex
-          display={["flex", "flex", "flex", "block"]}
-          textAlign={"center"}
-          alignItems={"center"}
-          border={[
-            "1px solid rgba(0,0,0,0.4)",
-            "1px solid rgba(0,0,0,0.4)",
-            "1px solid rgba(0,0,0,0.4)",
-            "none",
-          ]}
-          cursor={"pointer"}
-          justifyContent={"space-around"}
-        >
-          <Link to={'/patio-covers'}>
-          <Box mb={[0, 0, 0, 3]}>
-            <img src="src\assets\HomeIMG\Section4\living-room.jpg" alt="" />
-          </Box>
-          <Text>Living Room Furniture</Text>
+            </Box>
+            <Text>Patio Covers & Shade Structures</Text>
           </Link>
         </Flex>
 
@@ -80,11 +59,11 @@ const Section4 = () => {
           cursor={"pointer"}
           justifyContent={"space-around"}
         >
-          <Link to={'/patio-covers'}>
-          <Box mb={[0, 0, 0, 3]}>
-            <img src="src\assets\HomeIMG\Section4\patio-furniture.jpg" alt="" />
-          </Box>
-          <Text>Patio & Outdoor Furniture</Text>
+          <Link to={"/furniture"}>
+            <Box mb={[0, 0, 0, 3]}>
+              <img src="src\assets\HomeIMG\Section4\living-room.jpg" alt="" />
+            </Box>
+            <Text>Living Room Furniture</Text>
           </Link>
         </Flex>
 
@@ -101,11 +80,14 @@ const Section4 = () => {
           cursor={"pointer"}
           justifyContent={"space-around"}
         >
-          <Link to={'/mens-clothing'}>
-          <Box mb={[0, 0, 0, 3]}>
-            <img src="src\assets\HomeIMG\Section4\mens-clothing.jpg" alt="" />
-          </Box>
-          <Text>Clothing for Men</Text>
+          <Link to={"/patio-covers"}>
+            <Box mb={[0, 0, 0, 3]}>
+              <img
+                src="src\assets\HomeIMG\Section4\patio-furniture.jpg"
+                alt=""
+              />
+            </Box>
+            <Text>Patio & Outdoor Furniture</Text>
           </Link>
         </Flex>
 
@@ -122,11 +104,11 @@ const Section4 = () => {
           cursor={"pointer"}
           justifyContent={"space-around"}
         >
-          <Link to={'/women-clothing'}>
-          <Box mb={[0, 0, 0, 3]}>
-            <img src="src\assets\HomeIMG\Section4\womens-clothing.jpg" alt="" />
-          </Box>
-          <Text>Clothing for Women</Text>
+          <Link to={"/mens-clothing"}>
+            <Box mb={[0, 0, 0, 3]}>
+              <img src="src\assets\HomeIMG\Section4\mens-clothing.jpg" alt="" />
+            </Box>
+            <Text>Clothing for Men</Text>
           </Link>
         </Flex>
 
@@ -143,11 +125,35 @@ const Section4 = () => {
           cursor={"pointer"}
           justifyContent={"space-around"}
         >
-          <Link to={'/computer'}>
-          <Box mb={[0, 0, 0, 3]}>
-            <img src="src\assets\HomeIMG\Section4\rwd-laptops.jpg" alt="" />
-          </Box>
-          <Text>Laptops & Notebook Computers</Text>
+          <Link to={"/women-clothing"}>
+            <Box mb={[0, 0, 0, 3]}>
+              <img
+                src="src\assets\HomeIMG\Section4\womens-clothing.jpg"
+                alt=""
+              />
+            </Box>
+            <Text>Clothing for Women</Text>
+          </Link>
+        </Flex>
+
+        <Flex
+          display={["flex", "flex", "flex", "block"]}
+          textAlign={"center"}
+          alignItems={"center"}
+          border={[
+            "1px solid rgba(0,0,0,0.4)",
+            "1px solid rgba(0,0,0,0.4)",
+            "1px solid rgba(0,0,0,0.4)",
+            "none",
+          ]}
+          cursor={"pointer"}
+          justifyContent={"space-around"}
+        >
+          <Link to={"/computer"}>
+            <Box mb={[0, 0, 0, 3]}>
+              <img src="src\assets\HomeIMG\Section4\rwd-laptops.jpg" alt="" />
+            </Box>
+            <Text>Laptops & Notebook Computers</Text>
           </Link>
         </Flex>
       </SimpleGrid>
@@ -159,12 +165,12 @@ const Section4 = () => {
         justifyContent={"center"}
         display={["none", "none", "flex", "flex"]}
       >
-        <Link to={'/baby'}>
-        <img
-          src="src\assets\HomeIMG\Section4\d_24w09016_banner_pulls_ups_v2.jpg"
-          alt=""
+        <Link to={"/baby"}>
+          <img
+            src="src\assets\HomeIMG\Section4\d_24w09016_banner_pulls_ups_v2.jpg"
+            alt=""
           />
-          </Link>
+        </Link>
       </Flex>
 
       <Flex
@@ -174,12 +180,12 @@ const Section4 = () => {
         pt={4}
         display={["flex", "flex", "none", "none"]}
       >
-        <Link to={'/baby'}>
-        <img
-          src="src\assets\HomeIMG\Section4\m_24w09016_banner_pulls_ups_v2.jpg"
-          alt=""
+        <Link to={"/baby"}>
+          <img
+            src="src\assets\HomeIMG\Section4\m_24w09016_banner_pulls_ups_v2.jpg"
+            alt=""
           />
-          </Link>
+        </Link>
       </Flex>
 
       <SimpleGrid

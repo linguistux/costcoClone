@@ -1,5 +1,12 @@
 import { useParams } from "react-router-dom";
-import { Box, Button, Flex, SimpleGrid, Text } from "@chakra-ui/react";
+import {
+  Box,
+  Button,
+  Flex,
+  SimpleGrid,
+  Text,
+  useToast,
+} from "@chakra-ui/react";
 import Header from "../../Components/Header";
 import Footer from "../../Components/Footer";
 
@@ -8,6 +15,7 @@ import { useEffect } from "react";
 
 const MensClothingSinglePage = () => {
   const { id } = useParams();
+  const toast = useToast();
 
   const selectedItem = productData.find((item) => item.id === parseInt(id));
 
@@ -21,14 +29,22 @@ const MensClothingSinglePage = () => {
     let arr = JSON.parse(localStorage.getItem("cart")) || [];
     arr.push(selectedItem);
     localStorage.setItem("cart", JSON.stringify(arr));
+    let cartObj = {
+      title: "Product Added Successfully",
+      description: `${title} Added to your cart`,
+      status: "success",
+      duration: 9000,
+      isClosable: true,
+    };
+    toast(cartObj);
   }
 
-  useEffect(()=>{
+  useEffect(() => {
     window.scroll({
-      top:0,
-      behavior:'instant'
-    })
-  },[])
+      top: 0,
+      behavior: "instant",
+    });
+  }, []);
 
   return (
     <Box>

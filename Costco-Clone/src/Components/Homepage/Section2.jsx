@@ -1,21 +1,24 @@
 import { Box, Flex, SimpleGrid, Text } from "@chakra-ui/react";
+import { Link } from "react-router-dom";
 
 const Cards = ({ cardText, image, textColor, imageBg }) => {
   return (
     <Box>
-      <Text
-        p={2}
-        textAlign={"center"}
-        bg={textColor}
-        color={"white"}
-        fontSize={"2rem"}
-        fontWeight={600}
-      >
-        {cardText}
-      </Text>
-      <Box bg={imageBg}>
-        <img src={image} alt="" />
-      </Box>
+      <Link to={"/patio-covers"}>
+        <Text
+          p={2}
+          textAlign={"center"}
+          bg={textColor}
+          color={"white"}
+          fontSize={"2rem"}
+          fontWeight={600}
+        >
+          {cardText}
+        </Text>
+        <Box bg={imageBg}>
+          <img src={image} alt="" />
+        </Box>
+      </Link>
     </Box>
   );
 };
@@ -104,32 +107,33 @@ const Section2 = () => {
           </Text>
         </Box>
       </Box>
+      <Link to={"/baby"}>
+        <Flex
+          pr={20}
+          pl={20}
+          pt={4}
+          justifyContent={"center"}
+          display={["none", "none", "flex", "flex"]}
+        >
+          <img
+            src="src\assets\HomeIMG\Section2\d_24w08185_banner_huggies.jpg"
+            alt=""
+          />
+        </Flex>
 
-      <Flex
-        pr={20}
-        pl={20}
-        pt={4}
-        justifyContent={"center"}
-        display={["none", "none", "flex", "flex"]}
-      >
-        <img
-          src="src\assets\HomeIMG\Section2\d_24w08185_banner_huggies.jpg"
-          alt=""
-        />
-      </Flex>
-
-      <Flex
-        pr={5}
-        pl={5}
-        justifyContent={"center"}
-        pt={4}
-        display={["flex", "flex", "none", "none"]}
-      >
-        <img
-          src="src\assets\HomeIMG\Section2\m_24w08185_banner_huggies.jpg"
-          alt=""
-        />
-      </Flex>
+        <Flex
+          pr={5}
+          pl={5}
+          justifyContent={"center"}
+          pt={4}
+          display={["flex", "flex", "none", "none"]}
+        >
+          <img
+            src="src\assets\HomeIMG\Section2\m_24w08185_banner_huggies.jpg"
+            alt=""
+          />
+        </Flex>
+      </Link>
     </Box>
   );
 };

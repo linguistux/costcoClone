@@ -240,31 +240,31 @@ const Header = () => {
                 </MenuItem>
               </Link>
 
-              <Link to={"/"}>
+              <Link to={"/random"}>
                 <MenuItem>
                   <Text>Costco Direct</Text>
                 </MenuItem>
               </Link>
 
-              <Link to={"/"}>
+              <Link to={"/random"}>
                 <MenuItem>
                   <Text>Costco Next</Text>
                 </MenuItem>
               </Link>
 
-              <Link to={"/"}>
+              <Link to={"/computer"}>
                 <MenuItem>
                   <Text>Electronics</Text>
                 </MenuItem>
               </Link>
 
-              <Link to={"/"}>
+              <Link to={"/random"}>
                 <MenuItem>
                   <Text>Floral & Gift Baskets</Text>
                 </MenuItem>
               </Link>
 
-              <Link to={"/"}>
+              <Link to={"/furniture"}>
                 <MenuItem>
                   <Text>Furniture</Text>
                 </MenuItem>
@@ -276,22 +276,22 @@ const Header = () => {
                 </MenuItem>
               </Link>
 
-              <Link to={"/"}>
+              <Link to={"/beauty"}>
                 <MenuItem>
                   <Text>Health & Personal Care</Text>
                 </MenuItem>
               </Link>
-              <Link to={"/"}>
+              <Link to={"/patio-covers"}>
                 <MenuItem>
                   <Text>Holiday & Seasonal</Text>
                 </MenuItem>
               </Link>
-              <Link to={"/"}>
+              <Link to={"/furniture"}>
                 <MenuItem>
                   <Text>Home & Installation Services</Text>
                 </MenuItem>
               </Link>
-              <Link to={"/"}>
+              <Link to={"/patio-covers"}>
                 <MenuItem>
                   <Text>Home & Kitchen</Text>
                 </MenuItem>
@@ -446,58 +446,58 @@ const Header = () => {
               </MenuItem>
             </Link>
 
-            <Link to={"/"}>
+            <Link to={"/random"}>
               <MenuItem>
                 <Text>Costco Direct</Text>
               </MenuItem>
             </Link>
 
-            <Link to={"/"}>
+            <Link to={"/random"}>
               <MenuItem>
                 <Text>Costco Next</Text>
               </MenuItem>
             </Link>
 
-            <Link to={"/"}>
+            <Link to={"/computer"}>
               <MenuItem>
                 <Text>Electronics</Text>
               </MenuItem>
             </Link>
 
-            <Link to={"/"}>
+            <Link to={"/random"}>
               <MenuItem>
                 <Text>Floral & Gift Baskets</Text>
               </MenuItem>
             </Link>
 
-            <Link to={"/"}>
+            <Link to={"/furniture"}>
               <MenuItem>
                 <Text>Furniture</Text>
               </MenuItem>
             </Link>
 
-            <Link to={"/"}>
+            <Link to={"/random"}>
               <MenuItem>
                 <Text>Gift Cards & Tickets</Text>
               </MenuItem>
             </Link>
 
-            <Link to={"/"}>
+            <Link to={"/beauty"}>
               <MenuItem>
                 <Text>Health & Personal Care</Text>
               </MenuItem>
             </Link>
-            <Link to={"/"}>
+            <Link to={"/patio-covers"}>
               <MenuItem>
                 <Text>Holiday & Seasonal</Text>
               </MenuItem>
             </Link>
-            <Link to={"/"}>
+            <Link to={"/furniture"}>
               <MenuItem>
                 <Text>Home & Installation Services</Text>
               </MenuItem>
             </Link>
-            <Link to={"/"}>
+            <Link to={"/furniture"}>
               <MenuItem>
                 <Text>Home & Kitchen</Text>
               </MenuItem>
@@ -526,7 +526,9 @@ const Header = () => {
               <Box>
                 <Text>Gift Baskets</Text>
                 <Text>Organic</Text>
-                <Text>Kirkland Signature Grocery</Text>
+                <Link to={"/baby"}>
+                  <Text>Kirkland Signature Grocery</Text>
+                </Link>
                 <Text>Gourment Foods</Text>
                 <Text>Meat</Text>
                 <Text>Poultry</Text>
@@ -636,20 +638,44 @@ const Header = () => {
                   <Link to={"/computer"}>
                     <Text>Television</Text>
                   </Link>
-                  <Text>Floral & Gift Baskets</Text>
-                  <Text>Furniture</Text>
-                  <Text>Grocery, Household Essentials & Pet</Text>
+                  <Link to={"/beauty"}>
+                    <Text>Floral & Gift Baskets</Text>
+                  </Link>
+                  <Link to={"/furniture"}>
+                    <Text>Furniture</Text>
+                  </Link>
+                  <Link to={"/furniture"}>
+                    <Text>Grocery, Household Essentials & Pet</Text>
+                  </Link>
                 </SimpleGrid>
                 <SimpleGrid gap={2}>
-                  <Text>Health & Personal Care</Text>
-                  <Text>Home & Installation Services</Text>
-                  <Text>Home & Kitchen</Text>
-                  <Text>Home Improvements</Text>
-                  <Text>Jewelry, Watches & Sunglasses</Text>
-                  <Text>Mattresses</Text>
-                  <Text>Patio, Lawn & Garden</Text>
-                  <Text>Sports & Fitness</Text>
-                  <Text>Tires & Auto</Text>
+                  <Link to={"/random"}>
+                    <Text>Health & Personal Care</Text>
+                  </Link>
+                  <Link to={"/furniture"}>
+                    <Text>Home & Installation Services</Text>
+                  </Link>
+                  <Link to={"/furniture"}>
+                    <Text>Home & Kitchen</Text>
+                  </Link>
+                  <Link to={"/patio-covers"}>
+                    <Text>Home Improvements</Text>
+                  </Link>
+                  <Link to={"/random"}>
+                    <Text>Jewelry, Watches & Sunglasses</Text>
+                  </Link>
+                  <Link to={"random"}>
+                    <Text>Mattresses</Text>
+                  </Link>
+                  <Link to={"/patio-covers"}>
+                    <Text>Patio, Lawn & Garden</Text>
+                  </Link>
+                  <Link to={"/random"}>
+                    <Text>Sports & Fitness</Text>
+                  </Link>
+                  <Link to={"/random"}>
+                    <Text>Tires & Auto</Text>
+                  </Link>
                 </SimpleGrid>
               </SimpleGrid>
               <Button

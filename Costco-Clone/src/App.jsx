@@ -17,6 +17,10 @@ import ComputerPage from './Pages/MultiProductPages/ComputerPage'
 import ComputerSinglePage from './Pages/SingleProductPages/ComputerSinglePage'
 import PatioCoversPage from './Pages/MultiProductPages/PatioCoversPage'
 import PatioCoversSinglePage from './Pages/SingleProductPages/PatioCoversSinglePage'
+import FurniturePage from './Pages/MultiProductPages/FurniturePage'
+import FurnitureSinglePage from './Pages/SingleProductPages/FurnitureSinglePage'
+import RandomPage from './Pages/MultiProductPages/RandomPage'
+import RandomSinglePage from './Pages/SingleProductPages/RandomSinglePage'
 
 function App() {
 
@@ -38,9 +42,13 @@ function App() {
       <Route path='/women-clothing/:id' element={<WomenClothingSinglePage/>} />
       <Route path='/computer' element={<ComputerPage/>} />
       <Route path='/computer/:id' element={<ComputerSinglePage/>} />
-    
     <Route path='/patio-covers' element={<PatioCoversPage/>} />
     <Route path='/patio-covers/:id' element={<PatioCoversSinglePage/>} />
+    <Route path='/furniture' element={<FurniturePage/>} /> 
+    <Route path='/furniture/:id' element={<FurnitureSinglePage/>} /> 
+    <Route path='/furniture/:id' element={<FurnitureSinglePage/>} /> 
+    <Route path='/random' element={<RandomPage/>} /> 
+    <Route path='/random/:id' element={<RandomSinglePage/>} /> 
      </Routes>
     </>
   )

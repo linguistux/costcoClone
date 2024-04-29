@@ -45,20 +45,20 @@ const Card = ({
           </SimpleGrid>
         </SimpleGrid>
 
-<Link to={'/computer'}>
-        <Button
-          bg={"#D32029"}
-          borderRadius={50}
-          p={5}
-          color={"white"}
-          fontWeight={600}
-          _hover={{ color: "black", backgroundColor: "white" }}
-          w={"50%"}
-          m={"auto"}
-        >
-          SHOP NOW
-        </Button>
-          </Link>
+        <Link to={"/computer"}>
+          <Button
+            bg={"#D32029"}
+            borderRadius={50}
+            p={5}
+            color={"white"}
+            fontWeight={600}
+            _hover={{ color: "black", backgroundColor: "white" }}
+            w={"50%"}
+            m={"auto"}
+          >
+            SHOP NOW
+          </Button>
+        </Link>
       </SimpleGrid>
     </SimpleGrid>
   );
@@ -213,7 +213,6 @@ const Section3 = () => {
           text2={"Costco Direct Delivery"}
           text3={"10-Year Warranty"}
         />
-       
       </SimpleGrid>
 
       <SimpleGrid
@@ -227,30 +226,30 @@ const Section3 = () => {
         p={[2, 5, 8, 20]}
         justifyContent={"center"}
       >
-        <Link to={'/women-clothing'}>
-        <Box>
-          <img
-            src="src\assets\HomeIMG\Section3\24w07015_evergreen_half_banner_online_only.jpg"
-            alt=""
+        <Link to={"/women-clothing"}>
+          <Box>
+            <img
+              src="src\assets\HomeIMG\Section3\24w07015_evergreen_half_banner_online_only.jpg"
+              alt=""
             />
-        </Box>
-            </Link>
-        <Link to={'/computer'}>
-        <Box>
-          <img
-            src="src\assets\HomeIMG\Section3\24w08129_onethird_banner_samsung_tablet.jpg"
-            alt=""
+          </Box>
+        </Link>
+        <Link to={"/computer"}>
+          <Box>
+            <img
+              src="src\assets\HomeIMG\Section3\24w08129_onethird_banner_samsung_tablet.jpg"
+              alt=""
             />
-        </Box>
-            </Link>
-            <Link to={'/computer'} > 
-        <Box>
-          <img
-            src="src\assets\HomeIMG\Section3\24w09030_acer_laptop_edit.jpg"
-            alt=""
+          </Box>
+        </Link>
+        <Link to={"/computer"}>
+          <Box>
+            <img
+              src="src\assets\HomeIMG\Section3\24w09030_acer_laptop_edit.jpg"
+              alt=""
             />
-        </Box>
-            </Link>
+          </Box>
+        </Link>
       </SimpleGrid>
     </Box>
   );
