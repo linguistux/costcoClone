@@ -42,7 +42,7 @@ Costco is a membership warehouse club, dedicated to bringing our members the bes
 Below are the images of various pages:
 
 1. Home Page 🏡
-   ![Home Page](link_to_homepage_image)
+   ![Home Page](https://github.com/KaranChauhanji/Costco-Clone/blob/main/src/assets/Home.png)
 
 2. Login Page 🌐
    ![Login Page](link_to_loginpage_image)
