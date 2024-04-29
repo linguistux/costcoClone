@@ -57,7 +57,7 @@ Below are the images of various pages:
    ![Profile Page](https://github.com/KaranChauhanji/Costco-Clone/blob/main/src/assets/singleproduct.png)
 
 6. Cart Page 🛒
-   ![Cart Page](link_to_cartpage_image)
+   ![Cart Page](https://github.com/KaranChauhanji/Costco-Clone/blob/main/src/assets/cart.png)
 
 ## Getting Started 🚀
 To run the Costco clone project locally, follow these steps:
