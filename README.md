@@ -3,7 +3,7 @@
 Welcome to the Costco clone project, a web application designed to provide a seamless shopping experience similar to Costco's online platform. Below are the key features and functionalities of the Costco clone project.
 
 ## Experience It Yourself 🔗
-- [Costco Clone](https://costco-clone.com)
+- [Costco Clone](https://costcoclone.netlify.app/)
 
 ## About Costco 🏪
 Costco is a membership warehouse club, dedicated to bringing our members the best possible prices on quality brand-name merchandise. With hundreds of locations worldwide, Costco provides a wide selection of merchandise, plus the convenience of specialty departments and exclusive member services, all designed to make your shopping experience a pleasurable one.
