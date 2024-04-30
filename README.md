@@ -42,22 +42,22 @@ Costco is a membership warehouse club, dedicated to bringing our members the bes
 Below are the images of various pages:
 
 1. Home Page 🏡
-   ![Home Page](link_to_homepage_image)
+   ![Home Page](https://github.com/KaranChauhanji/Costco-Clone/blob/main/src/assets/Home.png)
 
 2. Login Page 🌐
-   ![Login Page](link_to_loginpage_image)
+   ![Login Page](https://github.com/KaranChauhanji/Costco-Clone/blob/main/src/assets/Login.png)
 
 3. Signup Page 📝
-   ![Signup Page](link_to_signuppage_image)
+   ![Signup Page](https://github.com/KaranChauhanji/Costco-Clone/blob/main/src/assets/Signup.png)
 
 4. Multi-Product Page 🛍️
-   ![Profile Page](link_to_profilepage_image)
+   ![Profile Page](https://github.com/KaranChauhanji/Costco-Clone/blob/main/src/assets/multiproduct.png)
 
 5. Single-Product Page 🛍️
-   ![Profile Page](link_to_profilepage_image)
+   ![Profile Page](https://github.com/KaranChauhanji/Costco-Clone/blob/main/src/assets/singleproduct.png)
 
 6. Cart Page 🛒
-   ![Cart Page](link_to_cartpage_image)
+   ![Cart Page](https://github.com/KaranChauhanji/Costco-Clone/blob/main/src/assets/cart.png)
 
 ## Getting Started 🚀
 To run the Costco clone project locally, follow these steps:
