@@ -66,10 +66,10 @@ const Card = ({
 
 const Section3 = () => {
   const arr = [
-    "src/assets/HomeIMG/Section3/23w10160-4across-wsl.jpg",
-    "src/assets/HomeIMG/Section3/23w10160-4across-whats-new.jpg",
-    "src/assets/HomeIMG/Section3/23w10160-4across-treasure-hunt.jpg",
-    "src/assets/HomeIMG/Section3/23w10160-4across-lower-prices.jpg",
+    "https://mobilecontent.costco.com/live/resource/img/23w11064/23w10160-4across-wsl.jpg",
+    "https://mobilecontent.costco.com/live/resource/img/23w11064/23w10160-4across-treasure-hunt.jpg",
+    "https://mobilecontent.costco.com/live/resource/img/23w11064/23w10160-4across-whats-new.jpg",
+    "https://mobilecontent.costco.com/live/resource/img/23w11064/23w10160-4across-lower-prices.jpg",
   ];
 
   return (
@@ -127,17 +127,17 @@ const Section3 = () => {
 
         <Card
           image={
-            "src/assets/HomeIMG/Section3/eco-home-why-buy-apliances-img--m.jpg"
+            "https://mobilecontent.costco.com/staging/resource/img/24w01226/eco-home-why-buy-apliances-img--m.jpg"
           }
           heading={"APPLIANCES"}
           smallImg1={
-            "src/assets/HomeIMG/Section3/icon-delivery-and-setup-fy24--white.svg"
+            "https://mobilecontent.costco.com/staging/resource/img/24w01226/icon-delivery-and-setup-fy24--white.svg"
           }
           smallImg2={
-            "src/assets/HomeIMG/Section3/icon-delivery-fy24--white.svg"
+            "https://mobilecontent.costco.com/staging/resource/img/24w01226/icon-delivery-fy24--white.svg"
           }
           smallImg3={
-            "src/assets/HomeIMG/Section3/icon-warranty-fy24--white.svg"
+            "https://mobilecontent.costco.com/staging/resource/img/24w01226/icon-warranty-fy24--white.svg"
           }
           text1={"Installation & Haul Away"}
           text2={"Costco Direct Delivery"}
@@ -146,15 +146,17 @@ const Section3 = () => {
 
         <Card
           image={
-            "src/assets/HomeIMG/Section3/eco-home-why-buy-tires-img--m.jpg"
+            "https://mobilecontent.costco.com/staging/resource/img/24w01226/eco-home-why-buy-tires-img--m.jpg"
           }
           heading={"TIRES"}
           smallImg1={
-            "src/assets/HomeIMG/Section3/icon-installation-fy24--white.svg"
+            "https://mobilecontent.costco.com/staging/resource/img/24w01226/icon-installation-fy24--white.svg"
           }
-          smallImg2={"src/assets/HomeIMG/Section3/icon-tire-fy24--white.svg"}
+          smallImg2={
+            "https://mobilecontent.costco.com/staging/resource/img/24w01226/icon-tire-fy24--white.svg"
+          }
           smallImg3={
-            "src/assets/HomeIMG/Section3/icon-warranty-fy24--white.svg"
+            "https://mobilecontent.costco.com/staging/resource/img/24w01226/icon-warranty-fy24--white.svg"
           }
           text1={"Installation Included"}
           text2={"Balancing & Flat Repairs"}
@@ -162,16 +164,18 @@ const Section3 = () => {
         />
 
         <Card
-          image={"src/assets/HomeIMG/Section3/eco-home-why-buy-tvs-img--m.jpg"}
+          image={
+            "https://mobilecontent.costco.com/staging/resource/img/24w01226/eco-home-why-buy-tvs-img--m.jpg"
+          }
           heading={"TELEVISIONS"}
           smallImg1={
-            "src/assets/HomeIMG/Section3/icon-delivery-and-setup-fy24--white.svg"
+            "https://mobilecontent.costco.com/staging/resource/img/24w01226/icon-delivery-and-setup-fy24--white.svg"
           }
           smallImg2={
-            "src/assets/HomeIMG/Section3/icon-tech-support-fy24--white.svg"
+            "https://mobilecontent.costco.com/staging/resource/img/24w01226/icon-tech-support-fy24--white.svg"
           }
           smallImg3={
-            "src/assets/HomeIMG/Section3/icon-warranty-fy24--white.svg"
+            "https://mobilecontent.costco.com/staging/resource/img/24w01226/icon-warranty-fy24--white.svg"
           }
           text1={"Free Shipping"}
           text2={"Free Tech Support"}
@@ -180,15 +184,17 @@ const Section3 = () => {
 
         <Card
           image={
-            "src/assets/HomeIMG/Section3/eco-home-why-buy-computers-img--m.jpg"
+            "https://mobilecontent.costco.com/staging/resource/img/24w01226/eco-home-why-buy-computers-img--m.jpg"
           }
           heading={"COMPUTERS"}
-          smallImg1={"src/assets/HomeIMG/Section3/icon-reward-fy24--white.svg"}
+          smallImg1={
+            "https://mobilecontent.costco.com/staging/resource/img/24w01226/icon-reward-fy24--white.svg"
+          }
           smallImg2={
-            "src/assets/HomeIMG/Section3/icon-tech-support-fy24--white.svg"
+            "https://mobilecontent.costco.com/staging/resource/img/24w01226/icon-tech-support-fy24--white.svg"
           }
           smallImg3={
-            "src/assets/HomeIMG/Section3/icon-warranty-fy24--white.svg"
+            "https://mobilecontent.costco.com/staging/resource/img/24w01226/icon-warranty-fy24--white.svg"
           }
           text1={"90-Day Returns"}
           text2={"Free Tech Support"}
@@ -197,17 +203,17 @@ const Section3 = () => {
 
         <Card
           image={
-            "src/assets/HomeIMG/Section3/eco-home-why-buy-mattresses-img--m.jpg"
+            "https://mobilecontent.costco.com/staging/resource/img/24w01226/eco-home-why-buy-mattresses-img--m.jpg"
           }
           heading={"MATTRESSES"}
           smallImg1={
-            "src/assets/HomeIMG/Section3/icon-delivery-and-setup-fy24--white.svg"
+            "https://mobilecontent.costco.com/staging/resource/img/24w01226/icon-delivery-and-setup-fy24--white.svg"
           }
           smallImg2={
-            "src/assets/HomeIMG/Section3/icon-delivery-fy24--white.svg"
+            "https://mobilecontent.costco.com/staging/resource/img/24w01226/icon-delivery-fy24--white.svg"
           }
           smallImg3={
-            "src/assets/HomeIMG/Section3/icon-warranty-fy24--white.svg"
+            "https://mobilecontent.costco.com/staging/resource/img/24w01226/icon-warranty-fy24--white.svg"
           }
           text1={"Setup & Haul Away"}
           text2={"Costco Direct Delivery"}
@@ -229,23 +235,23 @@ const Section3 = () => {
         <Link to={"/women-clothing"}>
           <Box>
             <img
-              src="src\assets\HomeIMG\Section3\24w07015_evergreen_half_banner_online_only.jpg"
+              src="https://mobilecontent.costco.com/live/resource/img/24w09044/24w09044_third_banner_neutrogena_beach_defense.jpg"
               alt=""
             />
           </Box>
         </Link>
-        <Link to={"/computer"}>
+        <Link to={"/random"}>
           <Box>
             <img
-              src="src\assets\HomeIMG\Section3\24w08129_onethird_banner_samsung_tablet.jpg"
+              src="https://mobilecontent.costco.com/staging/resource/img/24w09043/24w09043_homepage_third_banner_laundry_wash_combo.jpg"
               alt=""
             />
           </Box>
         </Link>
-        <Link to={"/computer"}>
+        <Link to={"/random"}>
           <Box>
             <img
-              src="src\assets\HomeIMG\Section3\24w09030_acer_laptop_edit.jpg"
+              src="https://mobilecontent.costco.com/live/resource/img/24w09057/m_24w09057_search_banner_winix.jpg"
               alt=""
             />
           </Box>

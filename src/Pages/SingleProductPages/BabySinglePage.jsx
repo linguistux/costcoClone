@@ -2,7 +2,7 @@ import { Box, Button, Flex, SimpleGrid, Text } from "@chakra-ui/react";
 import Header from "../../Components/Header";
 import Footer from "../../Components/Footer";
 import { useParams } from "react-router-dom";
-import productData from "../../JSON/babyPage.json";
+import { babyProducts } from "../../JSON/babyPage.js";
 import { useEffect } from "react";
 import { useToast } from "@chakra-ui/react";
 
@@ -11,7 +11,7 @@ const BabySinglePage = () => {
 
   const toast = useToast();
 
-  const selectedItem = productData.find((item) => item.id === parseInt(id));
+  const selectedItem = babyProducts.find((item) => item.id === parseInt(id));
 
   if (!selectedItem) {
     return <div>Product not found!</div>;
@@ -60,7 +60,7 @@ const BabySinglePage = () => {
           justifyContent={"center"}
           border={"1px solid rgba(0,0,0,0.2)"}
         >
-          <img src={"../../" + image} alt="Image" />
+          <img src={image} alt="Image" />
         </SimpleGrid>
         <SimpleGrid>
           <Text fontSize={"20px"} fontWeight={400} mb={20}>

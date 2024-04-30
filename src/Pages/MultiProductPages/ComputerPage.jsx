@@ -10,12 +10,15 @@ import {
 } from "@chakra-ui/react";
 import Header from "../../Components/Header";
 import Footer from "../../Components/Footer";
-import { useFetch } from "../../CustomHooks/FetchHook";
 import { Link } from "react-router-dom";
 import { useEffect, useState } from "react";
+import { computerProducts } from "../../JSON/computerPage";
+import { useSelector } from "react-redux";
 
 const ComputerPage = () => {
-  const { data, isLoading } = useFetch("src/JSON/computerPage.json");
+  const data = computerProducts;
+  const isLoading = useSelector((state) => state.load);
+
   const [sortedData, setSortedData] = useState([]);
 
   const handleChange = (e) => {
@@ -54,7 +57,7 @@ const ComputerPage = () => {
         display={["none", "none", "flex", "flex"]}
       >
         <img
-          src="src\assets\MultiProductPages\ComputerPage\d_24w09002_cat_hero_dell_gaming_v2.jpg"
+          src="https://mobilecontent.costco.com/live/resource/img/24w09002/d_24w09002_cat_hero_dell_gaming_v2.jpg"
           alt=""
         />
       </Flex>
@@ -67,7 +70,7 @@ const ComputerPage = () => {
         display={["flex", "flex", "none", "none"]}
       >
         <img
-          src="src\assets\MultiProductPages\ComputerPage\m_24w09002_cat_hero_dell_gaming_v2.jpg"
+          src="https://mobilecontent.costco.com/live/resource/img/24w09002/m_24w09002_cat_hero_dell_gaming_v2.jpg"
           alt=""
         />
       </Flex>

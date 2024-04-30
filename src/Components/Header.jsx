@@ -20,6 +20,10 @@ import { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 import { logout } from "../Redux/actionItems";
+import { FaShoppingCart } from "react-icons/fa";
+import { FaLocationDot } from "react-icons/fa6";
+import { PiPackageThin } from "react-icons/pi";
+import { GrFormSearch } from "react-icons/gr";
 
 const Header = () => {
   const state = useSelector((state) => state.authentication);
@@ -176,7 +180,7 @@ const Header = () => {
           <SimpleGrid textAlign={"center"}>
             <Link to="/cart">
               <Flex w={["73%", "20%"]} m={"auto"}>
-                <img src="src\assets\grocery-store.png" alt="" />
+                <FaShoppingCart />
               </Flex>
               <Text>Cart</Text>
             </Link>
@@ -315,11 +319,7 @@ const Header = () => {
             border={"1px solid blue"}
             borderRadius={"none"}
           >
-            <img
-              src="src\assets\searchIcon-removebg-preview.png"
-              alt=""
-              width={"100%"}
-            />
+            <GrFormSearch />
           </Button>
         </Flex>
         <Flex display={["none", "none", "flex", "flex"]}>
@@ -394,7 +394,7 @@ const Header = () => {
               }}
             >
               <Box width={"5"}>
-                <img src="src\assets\grocery-store.png" alt="" />
+                <FaShoppingCart />
               </Box>{" "}
               Cart
             </Flex>
@@ -1036,7 +1036,7 @@ const Header = () => {
             <Flex alignItems={"center"}>
               <Box w={4}>
                 {" "}
-                <img src="src\assets\maps-and-flags.png" alt="" />
+                <FaLocationDot />
               </Box>{" "}
               <Text fontWeight={600}>Seattle</Text>
             </Flex>
@@ -1052,7 +1052,7 @@ const Header = () => {
             <Flex alignItems={"center"}>
               <Box w={4}>
                 {" "}
-                <img src="src\assets\maps-and-flags.png" alt="" />
+                <PiPackageThin />
               </Box>{" "}
               <Text fontWeight={600}>98101</Text>
             </Flex>

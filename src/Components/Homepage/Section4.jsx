@@ -38,7 +38,7 @@ const Section4 = () => {
           <Link to={"/patio-covers"}>
             <Box mb={[0, 0, 0, 3]}>
               <img
-                src="src\assets\HomeIMG\Section4\outdoor-structures.jpg"
+                src="https://mobilecontent.costco.com/live/resource/img/static-us-tiles/outdoor-structures.jpg"
                 alt=""
               />
             </Box>
@@ -61,7 +61,10 @@ const Section4 = () => {
         >
           <Link to={"/furniture"}>
             <Box mb={[0, 0, 0, 3]}>
-              <img src="src\assets\HomeIMG\Section4\living-room.jpg" alt="" />
+              <img
+                src="https://mobilecontent.costco.com/live/resource/img/static-us-tiles/living-room.jpg"
+                alt=""
+              />
             </Box>
             <Text>Living Room Furniture</Text>
           </Link>
@@ -83,7 +86,7 @@ const Section4 = () => {
           <Link to={"/patio-covers"}>
             <Box mb={[0, 0, 0, 3]}>
               <img
-                src="src\assets\HomeIMG\Section4\patio-furniture.jpg"
+                src="https://mobilecontent.costco.com/live/resource/img/static-us-tiles/patio-furniture.jpg"
                 alt=""
               />
             </Box>
@@ -106,7 +109,10 @@ const Section4 = () => {
         >
           <Link to={"/mens-clothing"}>
             <Box mb={[0, 0, 0, 3]}>
-              <img src="src\assets\HomeIMG\Section4\mens-clothing.jpg" alt="" />
+              <img
+                src="https://mobilecontent.costco.com/live/resource/img/static-us-tiles/mens-clothing.jpg"
+                alt=""
+              />
             </Box>
             <Text>Clothing for Men</Text>
           </Link>
@@ -128,7 +134,7 @@ const Section4 = () => {
           <Link to={"/women-clothing"}>
             <Box mb={[0, 0, 0, 3]}>
               <img
-                src="src\assets\HomeIMG\Section4\womens-clothing.jpg"
+                src="https://mobilecontent.costco.com/live/resource/img/static-us-tiles/womens-clothing.jpg"
                 alt=""
               />
             </Box>
@@ -151,7 +157,10 @@ const Section4 = () => {
         >
           <Link to={"/computer"}>
             <Box mb={[0, 0, 0, 3]}>
-              <img src="src\assets\HomeIMG\Section4\rwd-laptops.jpg" alt="" />
+              <img
+                src="https://mobilecontent.costco.com/live/resource/img/static-us-tiles/rwd-laptops.jpg"
+                alt=""
+              />
             </Box>
             <Text>Laptops & Notebook Computers</Text>
           </Link>
@@ -167,7 +176,7 @@ const Section4 = () => {
       >
         <Link to={"/baby"}>
           <img
-            src="src\assets\HomeIMG\Section4\d_24w09016_banner_pulls_ups_v2.jpg"
+            src="https://mobilecontent.costco.com/live/resource/img/24w07030/d-24w07030_cat_hero_enfamil.jpg"
             alt=""
           />
         </Link>
@@ -182,7 +191,7 @@ const Section4 = () => {
       >
         <Link to={"/baby"}>
           <img
-            src="src\assets\HomeIMG\Section4\m_24w09016_banner_pulls_ups_v2.jpg"
+            src="https://mobilecontent.costco.com/live/resource/img/24w07030/m-24w07030_cat_hero_enfamil.jpg"
             alt=""
           />
         </Link>
@@ -201,19 +210,19 @@ const Section4 = () => {
       >
         <Box>
           <img
-            src="src\assets\HomeIMG\Section4\24w09017_banner_dove_body_wash.jpg"
+            src="https://mobilecontent.costco.com/live/resource/img/20240425_TRV_Marriott_Trio_Img/20240425_Marriott_US_Trio.jpg"
             alt=""
           />
         </Box>
         <Box>
           <img
-            src="src\assets\HomeIMG\Section4\24w09021_third_banner_secret.jpg"
+            src="https://mobilecontent.costco.com/staging/resource/img/24w06224/24w06224_april_mvm_third_banner.jpg"
             alt=""
           />
         </Box>
         <Box>
           <img
-            src="src\assets\HomeIMG\Section4\24w09020_third_banner_gum.jpg"
+            src="https://mobilecontent.costco.com/staging/resource/img/24w06223/24w06223_third_ban_april_mvm_tires.jpg"
             alt=""
           />
         </Box>
@@ -232,19 +241,19 @@ const Section4 = () => {
       >
         <Box>
           <img
-            src="src\assets\HomeIMG\Section4\d-24w04235-citibank.jpeg"
+            src="https://mobilecontent.costco.com/live/resource/img/24w04235/d-24w04235-citibank.png"
             alt=""
           />
         </Box>
         <Box>
           <img
-            src="src\assets\HomeIMG\Section4\d-24w01099-costco-services.jpg"
+            src="https://mobilecontent.costco.com/staging/resource/img/24w01099/d-24w01099-costco-services.jpg"
             alt=""
           />
         </Box>
         <Box>
           <img
-            src="src\assets\HomeIMG\Section4\d-24w01099-sustainability.jpg"
+            src="https://mobilecontent.costco.com/staging/resource/img/24w01099/d-24w01099-sustainability.jpg"
             alt=""
           />
         </Box>
@@ -263,13 +272,13 @@ const Section4 = () => {
       >
         <Box>
           <img
-            src="src\assets\HomeIMG\Section4\d-24w01107-banner-membership-v.jpg"
+            src="https://mobilecontent.costco.com/live/resource/img/24w01107/d-24w01107-banner-membership-v.jpg"
             alt=""
           />
         </Box>
         <Box>
           <img
-            src="src\assets\HomeIMG\Section4\d-24w01107-banner-renew-membership.jpg"
+            src="https://mobilecontent.costco.com/live/resource/img/24w01107/d-24w01107-banner-renew-membership.jpg"
             alt=""
           />
         </Box>

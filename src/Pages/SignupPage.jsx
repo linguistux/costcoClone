@@ -43,7 +43,10 @@ const SignupPage = () => {
       <Flex justifyContent={"center"} p={4} bg={"#EEEEEE"}>
         <Box w={150}>
           <Link to={"/"}>
-            <img src="src\assets\costcoLogoIdentityIntro@3x.png" alt="" />
+            <img
+              src="https://signin-ui.costco.com/ecomssoui/22/common/Images/logo-bc-us.svg"
+              alt=""
+            />
           </Link>
         </Box>
       </Flex>

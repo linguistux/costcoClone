@@ -7,7 +7,7 @@ const Section1 = () => {
       <Flex justifyContent={"center"} pr={[5, 5, 8, 10]} pl={[5, 5, 8, 10]}>
         <Link to={"/patio-covers"}>
           <img
-            src="src\assets\HomeIMG\d_24w09031_banner_backyard_oasis.jpg"
+            src="https://mobilecontent.costco.com/live/resource/img/24w09031/d_24w09031_banner_backyard_oasis.jpg"
             alt=""
           />
         </Link>
@@ -36,7 +36,7 @@ const Section1 = () => {
               $2,299.99 After $400 OFF
             </Text>
             <img
-              src="src\assets\HomeIMG\Section1\imageService (7).jpeg"
+              src="https://images.costco-static.com/ImageDelivery/imageService?profileId=12026540&imageId=2127689-847__1&recipeName=350"
               alt=""
             />
             <Text
@@ -61,7 +61,7 @@ const Section1 = () => {
               $1,799.99 After $500 OFF
             </Text>
             <img
-              src="src\assets\HomeIMG\Section1\imageService (6).jpeg"
+              src="https://images.costco-static.com/ImageDelivery/imageService?profileId=12026540&imageId=4000195905-847__1&recipeName=350"
               alt=""
             />
             <Text
@@ -86,7 +86,7 @@ const Section1 = () => {
               $479.99 After $100 OFF
             </Text>
             <img
-              src="src\assets\HomeIMG\Section1\imageService (5).jpeg"
+              src="https://images.costco-static.com/ImageDelivery/imageService?profileId=12026540&imageId=4000040643-847__1&recipeName=350"
               alt=""
             />
             <Text
@@ -111,7 +111,7 @@ const Section1 = () => {
               $1,299.99 After $200 OFF
             </Text>
             <img
-              src="src\assets\HomeIMG\Section1\imageService (4).jpeg"
+              src="https://images.costco-static.com/ImageDelivery/imageService?profileId=12026540&imageId=1630963-847__1&recipeName=350"
               alt=""
             />
             <Text
@@ -136,7 +136,7 @@ const Section1 = () => {
               $650 OFF
             </Text>
             <img
-              src="src\assets\HomeIMG\Section1\imageService (3).jpeg"
+              src="https://images.costco-static.com/ImageDelivery/imageService?profileId=12026540&imageId=1751993-847__1&recipeName=350"
               alt=""
             />
             <Text
@@ -161,7 +161,7 @@ const Section1 = () => {
               $320 OFF
             </Text>
             <img
-              src="src\assets\HomeIMG\Section1\imageService (2).jpeg"
+              src="https://images.costco-static.com/ImageDelivery/imageService?profileId=12026540&imageId=1418178-847__1&recipeName=350"
               alt=""
             />
             <Text
@@ -186,7 +186,7 @@ const Section1 = () => {
               $69.99 After $10 OFF
             </Text>
             <img
-              src="src\assets\HomeIMG\Section1\imageService (1).jpeg"
+              src="https://images.costco-static.com/ImageDelivery/imageService?profileId=12026540&imageId=1794675-847__1&recipeName=350"
               alt=""
             />
             <Text
@@ -209,7 +209,10 @@ const Section1 = () => {
             <Text fontWeight={700} fontSize={"1.1rem"}>
               $59.99 After $20 OFF
             </Text>
-            <img src="src\assets\HomeIMG\Section1\imageService.jpeg" alt="" />
+            <img
+              src="https://images.costco-static.com/ImageDelivery/imageService?profileId=12026540&imageId=1546146-847__1&recipeName=350"
+              alt=""
+            />
             <Text
               textTransform={"uppercase"}
               fontWeight={600}

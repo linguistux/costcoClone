@@ -10,12 +10,16 @@ import {
 } from "@chakra-ui/react";
 import Header from "../../Components/Header";
 import Footer from "../../Components/Footer";
-import { useFetch } from "../../CustomHooks/FetchHook";
+
 import { Link } from "react-router-dom";
 import { useEffect, useState } from "react";
+import { furnitureProducts } from "../../JSON/furniture";
+import { useSelector } from "react-redux";
 
 const FurniturePage = () => {
-  const { data, isLoading } = useFetch("src/JSON/furniture.json");
+  const data = furnitureProducts;
+  const isLoading = useSelector((state) => state.load);
+
   const [sortedData, setSortedData] = useState([]);
 
   const handleChange = (e) => {
@@ -48,7 +52,7 @@ const FurniturePage = () => {
       </Text>
       <Flex pr={20} pl={20} pt={4} justifyContent={"center"}>
         <img
-          src="src\assets\MultiProductPages\FurniturePage\measure-for-delivery-furniture.jpg"
+          src="https://mobilecontent.costco.com/live/resource/img/static-us-tiles/measure-for-delivery-furniture.jpg"
           alt=""
         />
       </Flex>

@@ -27,21 +27,21 @@ function App() {
 
   return (
     <>
-     <Routes>
-      <Route path='/' element={<Home/>}/>
-      <Route path='/login' element={<LoginPage/>}/>
-      <Route path='/signup' element={<SignupPage/>}/>
-      <Route path='/cart' element={ <PrivateRoutes> <CartPage/> </PrivateRoutes>}/>
-      <Route path='/baby' element={<BabyPage/>} />
-      <Route path='/baby/:id' element={<BabySinglePage/>} />
-      <Route path='/beauty' element={<BeautyPage/>}/>
-      <Route path='/beauty/:id' element={<BeautySinglePage/>}/>
-      <Route path='/mens-clothing' element={<MensClothingPage/>} />
-      <Route path='/mens-clothing/:id' element={<MensClothingSinglePage/>} />
-      <Route path='/women-clothing' element={<WomenClothingPage/>} />
-      <Route path='/women-clothing/:id' element={<WomenClothingSinglePage/>} />
-      <Route path='/computer' element={<ComputerPage/>} />
-      <Route path='/computer/:id' element={<ComputerSinglePage/>} />
+    <Routes>
+    <Route path='/' element={<Home/>}/>
+    <Route path='/login' element={<LoginPage/>}/>
+    <Route path='/signup' element={<SignupPage/>}/>
+    <Route path='/cart' element={ <PrivateRoutes> <CartPage/> </PrivateRoutes>}/>
+    <Route path='/baby' element={<BabyPage/>} />
+    <Route path='/baby/:id' element={<BabySinglePage/>} />
+    <Route path='/beauty' element={<BeautyPage/>}/>
+    <Route path='/beauty/:id' element={<BeautySinglePage/>}/>
+    <Route path='/mens-clothing' element={<MensClothingPage/>} />
+    <Route path='/mens-clothing/:id' element={<MensClothingSinglePage/>} />
+    <Route path='/women-clothing' element={<WomenClothingPage/>} />
+    <Route path='/women-clothing/:id' element={<WomenClothingSinglePage/>} />
+    <Route path='/computer' element={<ComputerPage/>} />
+    <Route path='/computer/:id' element={<ComputerSinglePage/>} />
     <Route path='/patio-covers' element={<PatioCoversPage/>} />
     <Route path='/patio-covers/:id' element={<PatioCoversSinglePage/>} />
     <Route path='/furniture' element={<FurniturePage/>} /> 
@@ -49,7 +49,7 @@ function App() {
     <Route path='/furniture/:id' element={<FurnitureSinglePage/>} /> 
     <Route path='/random' element={<RandomPage/>} /> 
     <Route path='/random/:id' element={<RandomSinglePage/>} /> 
-     </Routes>
+    </Routes>
     </>
   )
 }

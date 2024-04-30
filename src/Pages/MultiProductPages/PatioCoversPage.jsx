@@ -10,12 +10,17 @@ import {
 } from "@chakra-ui/react";
 import Header from "../../Components/Header";
 import Footer from "../../Components/Footer";
-import { useFetch } from "../../CustomHooks/FetchHook";
+
 import { Link } from "react-router-dom";
 import { useEffect, useState } from "react";
+import { patioCoversProducts } from "../../JSON/patioCoversPage";
+import { useSelector } from "react-redux";
+import SimpleSlider from "../../Components/Homepage/Slider";
 
 const PatioCoversPage = () => {
-  const { data, isLoading } = useFetch("src/JSON/patioCoversPage.json");
+  const data = patioCoversProducts;
+  const isLoading = useSelector((state) => state.load);
+
   const [sortedData, setSortedData] = useState([]);
 
   const handleChange = (e) => {
@@ -46,6 +51,8 @@ const PatioCoversPage = () => {
       <Text fontWeight={400} fontSize={"30px"} p={[5, 5, 10, 10]}>
         Patio Covers & Shade Structures
       </Text>
+
+      <SimpleSlider />
 
       <Flex mt={5} p={10} pb={[2, 2, 2, 2]}>
         <Text fontSize={"17px"} fontWeight={400} mr={2}>

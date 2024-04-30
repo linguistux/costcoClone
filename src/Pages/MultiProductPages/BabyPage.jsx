@@ -10,12 +10,14 @@ import {
 } from "@chakra-ui/react";
 import Header from "../../Components/Header";
 import Footer from "../../Components/Footer";
-import { useFetch } from "../../CustomHooks/FetchHook";
 import { Link } from "react-router-dom";
 import { useEffect, useState } from "react";
+import { babyProducts } from "../../JSON/babyPage";
+import { useSelector } from "react-redux";
 
 const BabyPage = () => {
-  const { data, isLoading } = useFetch("src/JSON/babyPage.json");
+  const data = babyProducts;
+  const isLoading = useSelector((state) => state.load);
 
   const [sortedData, setSortedData] = useState([]);
 
@@ -37,7 +39,7 @@ const BabyPage = () => {
   useEffect(() => {
     window.scroll({
       top: 0,
-      behavior: "smooth",
+      behavior: "instant",
     });
   }, []);
 
@@ -57,7 +59,7 @@ const BabyPage = () => {
         display={["none", "none", "flex", "flex"]}
       >
         <img
-          src="src\assets\HomeIMG\Section2\d_24w08185_banner_huggies.jpg"
+          src="https://mobilecontent.costco.com/live/resource/img/24w07030/d-24w07030_cat_hero_enfamil.jpg"
           alt=""
         />
       </Flex>
@@ -70,7 +72,7 @@ const BabyPage = () => {
         display={["flex", "flex", "none", "none"]}
       >
         <img
-          src="src\assets\HomeIMG\Section2\m_24w08185_banner_huggies.jpg"
+          src="https://mobilecontent.costco.com/live/resource/img/24w07030/m-24w07030_cat_hero_enfamil.jpg"
           alt=""
         />
       </Flex>

@@ -52,16 +52,16 @@ export default function SimpleSlider() {
   };
 
   let arr = [
-    "src/assets/HomeIMG/Slider1/1.jpg",
-    "src/assets/HomeIMG/Slider1/12.jpg",
-    "src/assets/HomeIMG/Slider1/3.jpg",
-    "src/assets/HomeIMG/Slider1/4.jpg",
-    "src/assets/HomeIMG/Slider1/6.jpg",
-    "src/assets/HomeIMG/Slider1/7.jpg",
-    "src/assets/HomeIMG/Slider1/8.jpg",
-    "src/assets/HomeIMG/Slider1/9.jpg",
-    "src/assets/HomeIMG/Slider1/10.jpg",
-    "src/assets/HomeIMG/Slider1/11.jpg",
+    "https://mobilecontent.costco.com/live/resource/img/24w08143/d_24w08143_Hero_Apple_Watch_Mothers_Day.jpg",
+    "https://mobilecontent.costco.com/staging/resource/img/24w06223/d_24w06223_hero_april_mvm_tires.jpg",
+    "https://mobilecontent.costco.com/live/resource/img/20240429_EUR_Imgs/20240429_Europe_US_ComHero_D.jpg",
+    "https://mobilecontent.costco.com/staging/resource/img/24w08101/d_24w08101_appliances_homepage_hero_v03.jpg",
+    "https://mobilecontent.costco.com/live/resource/img/24w09075/d_24w09075_hero_mothers_day_gift_ideas.jpg",
+    "https://mobilecontent.costco.com/live/resource/img/24w09038/d_24w09038_april_audio_event_home_hero.jpg",
+    "https://mobilecontent.costco.com/live/resource/img/24w09041/d_24w09041_hero_apparel.jpg",
+    "https://mobilecontent.costco.com/live/resource/img/24w09040/d-24w09040_homepage_hero_mothers_day_bms.jpg",
+    "https://mobilecontent.costco.com/staging/resource/img/24w09058/d_24w09058_hero_first_quailty.jpg",
+    "https://mobilecontent.costco.com/live/resource/img/24w09038/d_24w09038_april_audio_event_home_hero.jpg",
   ];
 
   return (

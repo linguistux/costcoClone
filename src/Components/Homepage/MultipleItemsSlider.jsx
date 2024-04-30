@@ -31,83 +31,99 @@ function MultipleItems() {
 
   let arr = [
     {
-      image: "src/assets/HomeIMG/MultiItemSlider1/imageService.jpeg",
+      image:
+        "https://images.costco-static.com/ImageDelivery/imageService?profileId=12026540&imageId=1474151-847__1&recipeName=350",
       title: "Yardistry 12' x 14' Contemporary Gazebo with Aluminum Roof",
       Price: "$2,599.99",
     },
     {
-      image: "src/assets/HomeIMG/MultiItemSlider1/imageService (2).jpeg",
+      image:
+        "https://images.costco-static.com/ImageDelivery/imageService?profileId=12026540&imageId=1588972-847__1&recipeName=350",
       title:
         "StriVectin Peptide Plump Line Filling Bounce Serum, 1.0 fl oz + 0.5 fl oz",
       Price: "$29.95",
     },
     {
-      image: "src/assets/HomeIMG/MultiItemSlider1/imageService (3).jpeg",
+      image:
+        "https://images.costco-static.com/ImageDelivery/imageService?profileId=12026540&imageId=4000222494-847__1&recipeName=350",
       title: "adidas Youth 2-pack Short",
       Price: "$40.45",
     },
     {
-      image: "src/assets/HomeIMG/MultiItemSlider1/imageService (1).jpeg",
+      image:
+        "https://images.costco-static.com/ImageDelivery/imageService?profileId=12026540&imageId=2127608-847__1&recipeName=350",
       title: "Yardistry 12' x 20' Gazebo with Aluminum Roof",
       Price: "$1200.99",
     },
     {
-      image: "src/assets/HomeIMG/MultiItemSlider1/imageService (5).jpeg",
+      image:
+        "https://images.costco-static.com/ImageDelivery/imageService?profileId=12026540&imageId=1713420-847__1&recipeName=350",
       title: "Macbook Air",
       Price: "$600",
     },
     {
-      image: "src/assets/HomeIMG/MultiItemSlider1/imageService (7).jpeg",
+      image:
+        "https://images.costco-static.com/ImageDelivery/imageService?profileId=12026540&imageId=1794498-847__1&recipeName=350",
       title: "Yardistry 12' x 16' Gazebo with Aluminum Roof",
       Price: "$1160.89",
     },
     {
-      image: "src/assets/HomeIMG/MultiItemSlider1/imageService (11).jpeg",
+      image:
+        "https://images.costco-static.com/ImageDelivery/imageService?profileId=12026540&imageId=1679163-847__1&recipeName=350",
       title: "adidas Youth Performance Polo and Tee Set",
       Price: "$50.99",
     },
     {
-      image: "src/assets/HomeIMG/MultiItemSlider1/imageService (12).jpeg",
+      image:
+        "https://images.costco-static.com/ImageDelivery/imageService?profileId=12026540&imageId=9077091-847__1&recipeName=350",
       title: "Mackbook Air Pro",
       Price: "$800",
     },
     {
-      image: "src/assets/HomeIMG/MultiItemSlider1/imageService (14).jpeg",
+      image:
+        "https://images.costco-static.com/ImageDelivery/imageService?profileId=12026540&imageId=1719026-847__1&recipeName=350",
       title: "Yardistry 12' x 24' Gazebo with Aluminum Roof with Dinning",
       Price: "$1500.92",
     },
     {
-      image: "src/assets/HomeIMG/MultiItemSlider1/imageService (13).jpeg",
+      image:
+        "https://images.costco-static.com/ImageDelivery/imageService?profileId=12026540&imageId=1777076-847__1&recipeName=350",
       title: "Yardistry 12' x 24' Gazebo with Aluminum Roof",
       Price: "$2500.40",
     },
     {
-      image: "src/assets/HomeIMG/MultiItemSlider1/imageService (4).jpeg",
+      image:
+        "https://images.costco-static.com/ImageDelivery/imageService?profileId=12026540&imageId=1266688-847__1&recipeName=350",
       title: "Yardistry 12' Gazebo Open",
       Price: "$1100",
     },
     {
-      image: "src/assets/HomeIMG/MultiItemSlider1/imageService (6).jpeg",
+      image:
+        "https://images.costco-static.com/ImageDelivery/imageService?profileId=12026540&imageId=4000227662-847__1&recipeName=350",
       title: "Yardistry 12' x 12' Gazebo with Aluminum Roof",
       Price: "$1300",
     },
     {
-      image: "src/assets/HomeIMG/MultiItemSlider1/imageService (9).jpeg",
+      image:
+        "https://images.costco-static.com/ImageDelivery/imageService?profileId=12026540&imageId=1694813-847__1&recipeName=350",
       title: "Sojag Messina Galvanized Steel Roof Gazebo",
       Price: "$2360.99",
     },
     {
-      image: "src/assets/HomeIMG/MultiItemSlider1/imageService (8).jpeg",
+      image:
+        "https://images.costco-static.com/ImageDelivery/imageService?profileId=12026540&imageId=100152232-847__1&recipeName=350",
       title: "Sojag Messina Gazebo Steel Roof Gazebo",
       Price: "$2100.99",
     },
     {
-      image: "src/assets/HomeIMG/MultiItemSlider1/imageService (10).jpeg",
+      image:
+        "https://images.costco-static.com/ImageDelivery/imageService?profileId=12026540&imageId=6262016-847__1&recipeName=350",
       title: "Yardistry 12' x 16' Gazebo with Aluminum Roof",
       Price: "$2500.99",
     },
     {
-      image: "src/assets/HomeIMG/MultiItemSlider1/imageService (16).jpeg",
+      image:
+        "https://images.costco-static.com/ImageDelivery/imageService?profileId=12026540&imageId=1646043-847__1&recipeName=350",
       title: "Yardistry 12' x 16' Gazebo Open with Dinning",
       Price: "$1588.80",
     },

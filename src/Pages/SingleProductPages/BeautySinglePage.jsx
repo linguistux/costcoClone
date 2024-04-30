@@ -10,14 +10,14 @@ import {
 import Header from "../../Components/Header";
 import Footer from "../../Components/Footer";
 import { useParams } from "react-router-dom";
-import productData from "../../JSON/beautyPage.json";
+import { beautyProducts } from "../../JSON/beautyPage.js";
 import { useEffect } from "react";
 
 const BeautySinglePage = () => {
   const { id } = useParams();
   const toast = useToast();
 
-  const selectedItem = productData.find((item) => item.id === parseInt(id));
+  const selectedItem = beautyProducts.find((item) => item.id === parseInt(id));
 
   if (!selectedItem) {
     return <div>Product not found!</div>;
@@ -66,7 +66,7 @@ const BeautySinglePage = () => {
           justifyContent={"center"}
           border={"1px solid rgba(0,0,0,0.2)"}
         >
-          <img src={"../../" + image} alt="Image" />
+          <img src={image} alt="Image" />
         </SimpleGrid>
         <SimpleGrid>
           <Text fontSize={"20px"} fontWeight={400} mb={10}>

@@ -10,14 +10,16 @@ import {
 import Header from "../../Components/Header";
 import Footer from "../../Components/Footer";
 
-import productData from "../../JSON/womenClothPage.json";
+import { womenClothingProducts } from "../../JSON/womenClothPage.js";
 import { useEffect } from "react";
 
 const WomenClothingSinglePage = () => {
   const { id } = useParams();
   const toast = useToast();
 
-  const selectedItem = productData.find((item) => item.id === parseInt(id));
+  const selectedItem = womenClothingProducts.find(
+    (item) => item.id === parseInt(id)
+  );
 
   if (!selectedItem) {
     return <div>Product not found!</div>;
@@ -67,7 +69,7 @@ const WomenClothingSinglePage = () => {
           border={"1px solid rgba(0,0,0,0.2)"}
           p={10}
         >
-          <img src={"../../" + image} alt="Image" />
+          <img src={image} alt="Image" />
         </SimpleGrid>
         <SimpleGrid>
           <Text fontSize={"20px"} fontWeight={400} mb={10}>

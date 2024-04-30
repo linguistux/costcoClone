@@ -10,12 +10,16 @@ import {
 } from "@chakra-ui/react";
 import Header from "../../Components/Header";
 import Footer from "../../Components/Footer";
-import { useFetch } from "../../CustomHooks/FetchHook";
+
 import { Link } from "react-router-dom";
 import { useEffect, useState } from "react";
+import { womenClothingProducts } from "../../JSON/womenClothPage";
+import { useSelector } from "react-redux";
 
 const WomenClothingPage = () => {
-  const { data, isLoading } = useFetch("src/JSON/womenClothPage.json");
+  const data = womenClothingProducts;
+  const isLoading = useSelector((state) => state.load);
+
   const [sortedData, setSortedData] = useState([]);
 
   const handleChange = (e) => {
@@ -54,7 +58,7 @@ const WomenClothingPage = () => {
         display={["none", "none", "flex", "flex"]}
       >
         <img
-          src="src\assets\MultiProductPages\mensClothingPage\d_24w08113_cat_hero_32_Degrees.jpg"
+          src="https://mobilecontent.costco.com/live/resource/img/24w08177/d_24w08177_cat_hero_apparel_bms.jpg"
           alt=""
         />
       </Flex>
@@ -67,7 +71,7 @@ const WomenClothingPage = () => {
         display={["flex", "flex", "none", "none"]}
       >
         <img
-          src="src\assets\MultiProductPages\mensClothingPage\m_24w08113_cat_hero_32_Degrees.jpg"
+          src="https://mobilecontent.costco.com/live/resource/img/24w08177/m_24w08177_cat_hero_apparel_bms.jpg"
           alt=""
         />
       </Flex>

@@ -39,7 +39,7 @@ const Section2 = () => {
           >
             <Box>
               <img
-                src="src\assets\HomeIMG\Section2\costco-direct-vector-badge.svg"
+                src="https://mobilecontent.costco.com/staging/resource/img/24w05146/costco-direct-vector-badge.svg"
                 alt=""
               />
             </Box>
@@ -69,31 +69,31 @@ const Section2 = () => {
             ]}
           >
             <Cards
-              cardText="SAVE $400"
-              image="src\assets\HomeIMG\Section2\24w05146-img-buy-5-items_patio.png"
-              textColor={"#005BA3"}
-              imageBg={"white"}
-            />
-
-            <Cards
               cardText="SAVE $300"
-              image="src\assets\HomeIMG\Section2\24w05146-img-buy-4-items_patio.png"
+              image="https://mobilecontent.costco.com/staging/resource/img/24w07060/24w07060_img_why_buy_2_items__home.png"
               textColor={"#015391"}
               imageBg={"#EBEBEB"}
             />
 
             <Cards
               cardText="SAVE $200"
-              image="src\assets\HomeIMG\Section2\24w05146-img-buy-3-items_patio.png"
+              image="https://mobilecontent.costco.com/staging/resource/img/24w07060/24w07060_img_why_buy_3_items__home.png"
               textColor={"#005BA3"}
               imageBg={"white"}
             />
 
             <Cards
               cardText="SAVE $100"
-              image="src\assets\HomeIMG\Section2\24w05146-img-buy-2-items_patio.png"
+              image="https://mobilecontent.costco.com/staging/resource/img/24w07060/24w07060_img_why_buy_4_items__home.png"
               textColor={"#015391"}
               imageBg={"#EBEBEB"}
+            />
+
+            <Cards
+              cardText="SAVE $400"
+              image="https://mobilecontent.costco.com/staging/resource/img/24w07060/24w07060_img_why_buy_5_items__home.png"
+              textColor={"#005BA3"}
+              imageBg={"white"}
             />
           </SimpleGrid>
           <Text
@@ -116,7 +116,7 @@ const Section2 = () => {
           display={["none", "none", "flex", "flex"]}
         >
           <img
-            src="src\assets\HomeIMG\Section2\d_24w08185_banner_huggies.jpg"
+            src="https://mobilecontent.costco.com/live/resource/img/24w07030/d-24w07030_cat_hero_enfamil.jpg"
             alt=""
           />
         </Flex>
@@ -129,7 +129,7 @@ const Section2 = () => {
           display={["flex", "flex", "none", "none"]}
         >
           <img
-            src="src\assets\HomeIMG\Section2\m_24w08185_banner_huggies.jpg"
+            src="https://mobilecontent.costco.com/live/resource/img/24w07030/m-24w07030_cat_hero_enfamil.jpg"
             alt=""
           />
         </Flex>

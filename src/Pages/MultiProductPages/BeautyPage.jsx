@@ -10,12 +10,14 @@ import {
 } from "@chakra-ui/react";
 import Header from "../../Components/Header";
 import Footer from "../../Components/Footer";
-import { useFetch } from "../../CustomHooks/FetchHook";
 import { Link } from "react-router-dom";
 import { useEffect, useState } from "react";
+import { beautyProducts } from "../../JSON/beautyPage";
+import { useSelector } from "react-redux";
 
 const BeautyPage = () => {
-  const { data, isLoading } = useFetch("src/JSON/beautyPage.json");
+  const data = beautyProducts;
+  const isLoading = useSelector((state) => state.load);
 
   const [sortedData, setSortedData] = useState([]);
 
@@ -55,7 +57,7 @@ const BeautyPage = () => {
         display={["none", "none", "flex", "flex"]}
       >
         <img
-          src="src\assets\MultiProductPages\beautyPage\d_24w09004_cat_hero_mothers_day_beauty_bmas.jpg"
+          src="https://mobilecontent.costco.com/live/resource/img/24w09004/d_24w09004_cat_hero_mothers_day_beauty_bmas_v2.jpg"
           alt=""
         />
       </Flex>
@@ -68,7 +70,7 @@ const BeautyPage = () => {
         display={["flex", "flex", "none", "none"]}
       >
         <img
-          src="src\assets\MultiProductPages\beautyPage\m_24w09004_cat_hero_mothers_day_beauty_bmas.jpg"
+          src="https://mobilecontent.costco.com/live/resource/img/24w09004/m_24w09004_cat_hero_mothers_day_beauty_bmas_v2.jpg"
           alt=""
         />
       </Flex>

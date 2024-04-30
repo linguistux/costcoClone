@@ -10,13 +10,17 @@ import {
 } from "@chakra-ui/react";
 import Header from "../../Components/Header";
 import Footer from "../../Components/Footer";
-import { useFetch } from "../../CustomHooks/FetchHook";
+
 import { Link } from "react-router-dom";
 import { useEffect, useState } from "react";
 import MultipleItems from "../../Components/Homepage/MultipleItemsSlider";
+import { randomProducts } from "../../JSON/randomPage";
+import { useSelector } from "react-redux";
 
 const RandomPage = () => {
-  const { data, isLoading } = useFetch("src/JSON/randomPage.json");
+  const data = randomProducts;
+  const isLoading = useSelector((state) => state.load);
+
   const [sortedData, setSortedData] = useState([]);
 
   const handleChange = (e) => {
