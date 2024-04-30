@@ -340,11 +340,7 @@ const Header = () => {
             borderLeft={"none"}
             borderRadius={"none"}
           >
-            <img
-              src="src\assets\searchIcon-removebg-preview.png"
-              alt=""
-              width={"100%"}
-            />
+            <GrFormSearch />
           </Button>
         </Flex>
         <Flex
